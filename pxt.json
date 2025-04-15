@@ -1,5 +1,6 @@
 {
     "name": "ada",
+    "version": "0.0.1",
     "description": "A simple two wheeled robot for STEM education",
     "license": "MIT",
     "authors": [ "Matias Vazquez-Levi", "atelier03.ca" ],
