@@ -6,6 +6,7 @@
     "dependencies": {
         "core": "*"
     },
+
     "files": [
         "ada.ts",
         "test.ts",
@@ -19,5 +20,5 @@
         "Matias Vazquez-Levi",
         "atelier03.ca"
     ],
-    "icon": "./static/libs/pxt_thumbnail.jpg"
+    "icon": "./icon.png"
 }
