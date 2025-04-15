@@ -8,6 +8,7 @@
     },
     "files": [
         "ada.ts",
+        "test.ts",
         "README.md",
         "_locales/en/ada-strings.json",
         "_locales/es/ada-strings.json",

@@ -14,9 +14,9 @@ enum DistanceUnit {
     MICROSECONDS = 2
 }
 
-//% color="#ee7521" weight=100 icon="\uf013" block="Ada"
+//% color="#ee7521" weight=100 icon="\uf013" block="ada"
 //% groups=['Motors', 'Sensors', 'Others']
-namespace Ada 
+namespace ada 
 {
     //% block="Forward at $speed power for $duration seconds"
     //% speed.min=0 speed.max=100 speed.defl=50
@@ -32,7 +32,7 @@ namespace Ada
         pins.analogWritePin(AnalogPin.P2, s)
 
         basic.pause(duration * 1000);
-        Ada.brake();
+        ada.brake();
     }
 
     //% block="Backwards at $speed power for $duration seconds"
@@ -49,7 +49,7 @@ namespace Ada
         pins.analogWritePin(AnalogPin.P2, s)
 
         basic.pause(duration * 1000);
-        Ada.brake();
+        ada.brake();
     }
 
     //% block="Turn left at $speed power for $duration seconds"
@@ -66,7 +66,7 @@ namespace Ada
         pins.analogWritePin(AnalogPin.P2, s)
 
         basic.pause(duration * 1000);
-        Ada.brake();
+        ada.brake();
     }
 
     //% block="Turn right at $speed power for $duration seconds"
@@ -83,7 +83,7 @@ namespace Ada
         pins.analogWritePin(AnalogPin.P2, s)
 
         basic.pause(duration * 1000);
-        Ada.brake();
+        ada.brake();
     }
 
 
