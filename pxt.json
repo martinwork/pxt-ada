@@ -20,5 +20,8 @@
         "Matias Vazquez-Levi",
         "atelier03.ca"
     ],
-    "icon": "./icon.png"
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }
