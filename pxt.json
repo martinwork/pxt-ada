@@ -1,0 +1,15 @@
+{
+    "name": "ada",
+    "description": "A simple two wheeled robot for STEM education",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "ada.ts",
+        "_locales/en/ada-strings.json",
+        "_locales/es/ada-strings.json",
+        "_locales/fr/ada-strings.json"
+    ],
+    "public": true,
+    "icon": "./static/libs/thumbnail.jpg"
+}
