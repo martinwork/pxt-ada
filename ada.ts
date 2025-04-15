@@ -56,7 +56,7 @@ namespace ada
     //% speed.min=0 speed.max=100 speed.defl=50
     //% duration.min=0 duration.defl=1
     //% group="Motors" weight=90
-    export function left(speed: number, duration: number) {
+    export function turnLeft(speed: number, duration: number) {
         const s = speed * 1023 / 100;
 
         pins.digitalWritePin(DigitalPin.P8, 1)
@@ -73,7 +73,7 @@ namespace ada
     //% speed.min=0 speed.max=100 speed.defl=50
     //% duration.min=0 duration.defl=1
     //% group="Motors" weight=89
-    export function right(speed: number, duration: number) {
+    export function turnRight(speed: number, duration: number) {
         const s = speed * 1023 / 100;
 
         pins.digitalWritePin(DigitalPin.P8, 0)
@@ -100,7 +100,7 @@ namespace ada
     //% speed.min=0 speed.max=100 speed.defl=50
     //% group="Motors" weight=100
     //% advanced=true
-    export function set_forward(speed: number) {
+    export function setForward(speed: number) {
         const s = speed * 1023 / 100;
 
         pins.digitalWritePin(DigitalPin.P8, 0)
@@ -114,7 +114,7 @@ namespace ada
     //% speed.min=0 speed.max=100 speed.defl=50
     //% group="Motors" weight=99
     //% advanced=true
-    export function set_backwards(speed: number) {
+    export function setBackwards(speed: number) {
         const s = speed * 1023 / 100;
 
         pins.digitalWritePin(DigitalPin.P8, 1)
@@ -129,7 +129,7 @@ namespace ada
     //% right.min=-100 right.max=100
     //% group="Motors" weight=80
     //% advanced=true
-    export function freeroam(left: number, right: number): void {
+    export function freestyle(left: number, right: number): void {
         if (left > 0) {
             pins.digitalWritePin(DigitalPin.P8, 0)
             pins.analogWritePin(AnalogPin.P1, left * 1023 / 100)
@@ -153,7 +153,7 @@ namespace ada
     //% blockId="read_distance"
     //% unit.shadow=read_distance_units
     //% group="Sensors" weight=100
-    export function read_distance(unit: DistanceUnit): number {
+    export function readDistance(unit: DistanceUnit): number {
 
         // Set trigger to HIGH for 10 microseconds
         pins.digitalWritePin(UltrasoundPins.TRIG, 1);
