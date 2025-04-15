@@ -3,7 +3,7 @@
 Extention for [MakeCode](https://makecode.com/) to program our robot named *Ada*.
 
 <p align="center">
-    <img src="./static/libs/thumbnail.png" alt="Ada and Laptop" width="50%">
+    <img src="./static/libs/thumbnail.jpg" alt="Ada and Laptop" width="50%">
 </p>
 
 This extension provides a set of blocks that can be used to control the robot's motors and ultrasound sensor.
