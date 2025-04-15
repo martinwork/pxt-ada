@@ -3,7 +3,9 @@
     "version": "0.0.1",
     "description": "A simple two wheeled robot for STEM education",
     "license": "MIT",
-    "authors": [ "Matias Vazquez-Levi", "atelier03.ca" ],
+    "dependencies": {
+        "core": "*"
+    },
     "files": [
         "ada.ts",
         "README.md",
@@ -11,9 +13,10 @@
         "_locales/es/ada-strings.json",
         "_locales/fr/ada-strings.json"
     ],
-    "dependencies": {
-        "core": "*"
-    },
     "public": true,
+    "authors": [
+        "Matias Vazquez-Levi",
+        "atelier03.ca"
+    ],
     "icon": "./static/libs/thumbnail.jpg"
 }
