@@ -1,0 +1,17 @@
+{
+  "Ada.backwards|block": "Reculer à $speed de puissance| pendant $duration secondes",
+  "Ada.brake|block": "Arrêter les moteurs",
+  "Ada.forward|block": "Avancer à $speed de puissance pendant| $duration secondes",
+  "Ada.freeroam|block": "moteur gauche à $left| et moteur de droite à $right",
+  "Ada.left|block": "Tourner à gauche à $speed de puissance| pendant $duration secondes",
+  "Ada.read_distance|block": "distance en $unit",
+  "Ada.right|block": "Tourner à droite à $speed de puissance| pendant $duration secondes",
+  "Ada.set_backwards|block": "Reculer à $speed de puissance",
+  "Ada.set_forward|block": "Avancer à $speed de puissance",
+  "DistanceUnit.CM|block": "cm",
+  "DistanceUnit.INCHES|block": "pouces",
+  "DistanceUnit.MICROSECONDS|block": "microsecondes",
+  "{id:category}Ada": "Ada",
+  "{id:group}Capteurs": "Capteurs",
+  "{id:group}Moteurs": "Moteurs"
+}
