@@ -23,3 +23,11 @@ For more control, the extension also provides a set of blocks to control the rob
 </p>
 
 Using these paired with the `pause` block, you can create more complex programs to control the robot's motors.
+
+---
+
+for PXT/TARGET
+
+---
+
+License MIT
