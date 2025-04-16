@@ -1,6 +1,6 @@
 {
     "name": "ada",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "A simple two wheeled robot for STEM education",
     "license": "MIT",
     "dependencies": {
@@ -10,13 +10,10 @@
         "ada.ts",
         "test.ts",
         "README.md",
-        
         "_locales/en/ada-strings.json",
         "_locales/en/ada-jsdoc-strings.json",
-        
         "_locales/es/ada-strings.json",
         "_locales/es/ada-jsdoc-strings.json",
-
         "_locales/fr/ada-strings.json",
         "_locales/fr/ada-jsdoc-strings.json"
     ],
