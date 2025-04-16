@@ -12,6 +12,6 @@
     "DistanceUnit.INCHES|block": "pulgadas",
     "DistanceUnit.MICROSECONDS|block": "microsegundos",
     "{id:category}ada": "ada",
-    "{id:group}Capteurs": "Sensores",
-    "{id:group}Moteurs": "Motores"
+    "{id:group}Sensors": "Sensores",
+    "{id:group}Motors": "Motores"
   }
