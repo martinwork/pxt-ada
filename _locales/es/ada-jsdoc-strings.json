@@ -1,1 +1,23 @@
-{}
+{
+    "ada.backwards": "Retroceder durante un cierto tiempo",
+    "ada.backwards|param|duration": "La duración del funcionamiento de los motores, en segundos",
+    "ada.backwards|param|speed": "La velocidad de los motores, del 0 al 100 por ciento",
+    "ada.brake": "Detener los motores",
+    "ada.forward": "Avanzar durante un cierto tiempo",
+    "ada.forward|param|duration": "La duración del funcionamiento de los motores, en segundos",
+    "ada.forward|param|speed": "La velocidad de los motores, del 0 al 100 por ciento",
+    "ada.freestyle": "Establecer la potencia de los motores",
+    "ada.freestyle|param|left": "La potencia del motor izquierdo, de -100 a 100 por ciento",
+    "ada.freestyle|param|right": "La potencia del motor derecho, de -100 a 100 por ciento",
+    "ada.readDistance": "Leer la distancia desde el sensor ultrasónico",
+    "ada.readDistance|param|unit": "La unidad en la que devolver la distancia",
+    "ada.setBackwards": "Establecer la potencia de los motores en reversa",
+    "ada.setForward": "Establecer la potencia de los motores hacia adelante",
+    "ada.turnLeft": "Girar a la izquierda durante un cierto tiempo",
+    "ada.turnLeft|param|duration": "La duración del funcionamiento de los motores, en segundos",
+    "ada.turnLeft|param|speed": "La velocidad de los motores, del 0 al 100 por ciento",
+    "ada.turnRight": "Girar a la derecha durante un cierto tiempo",
+    "ada.turnRight|param|duration": "La duración del funcionamiento de los motores, en segundos",
+    "ada.turnRight|param|speed": "La velocidad de los motores, del 0 al 100 por ciento"
+  }
+  

@@ -11,8 +11,11 @@
         "test.ts",
         "README.md",
         "_locales/en/ada-strings.json",
+        "_locales/en/ada-jsdoc-strings.json",
         "_locales/es/ada-strings.json",
-        "_locales/fr/ada-strings.json"
+        "_locales/es/ada-jsdoc-strings.json",
+        "_locales/fr/ada-strings.json",
+        "_locales/fr/ada-jsdoc-strings.json"
     ],
     "public": true,
     "supportedTargets": [

@@ -18,6 +18,11 @@ enum DistanceUnit {
 //% groups=['Motors', 'Sensors', 'Others']
 namespace ada 
 {
+    /**
+     * Go forward for a certain duration
+     * @param speed The speed of the motors, from 0 to 100 percent
+     * @param duration The duration to run the motors, in seconds
+     */
     //% block="Forward at $speed power for $duration seconds"
     //% speed.min=0 speed.max=100 speed.defl=50
     //% duration.min=0 duration.defl=1
@@ -35,6 +40,11 @@ namespace ada
         ada.brake();
     }
 
+    /**
+     * Go backwards for a certain duration
+     * @param speed The speed of the motors, from 0 to 100 percent
+     * @param duration The duration to run the motors, in seconds
+     */
     //% block="Backwards at $speed power for $duration seconds"
     //% speed.min=0 speed.max=100 speed.defl=50
     //% duration.min=0 duration.defl=1
@@ -52,6 +62,11 @@ namespace ada
         ada.brake();
     }
 
+    /**
+     * Turn left for a certain duration
+     * @param speed The speed of the motors, from 0 to 100 percent
+     * @param duration The duration to run the motors, in seconds
+     */
     //% block="Turn left at $speed power for $duration seconds"
     //% speed.min=0 speed.max=100 speed.defl=50
     //% duration.min=0 duration.defl=1
@@ -69,6 +84,11 @@ namespace ada
         ada.brake();
     }
 
+    /**
+     * Turn right for a certain duration
+     * @param speed The speed of the motors, from 0 to 100 percent
+     * @param duration The duration to run the motors, in seconds
+     */
     //% block="Turn right at $speed power for $duration seconds"
     //% speed.min=0 speed.max=100 speed.defl=50
     //% duration.min=0 duration.defl=1
@@ -86,7 +106,9 @@ namespace ada
         ada.brake();
     }
 
-
+    /**
+     * Stop the motors
+     */
     //% block="Stop the motors" group="Motors" weight=0
     export function brake() {
         pins.digitalWritePin(DigitalPin.P8, 0)
@@ -96,6 +118,10 @@ namespace ada
         pins.analogWritePin(AnalogPin.P2, 0)
     }
 
+    /**
+     * Set the motors to a certain power
+     * @param power The power of the motors, from -100 to 100 percent
+     */
     //% block="Forward at $speed power"
     //% speed.min=0 speed.max=100 speed.defl=50
     //% group="Motors" weight=100
@@ -110,6 +136,10 @@ namespace ada
         pins.analogWritePin(AnalogPin.P2, s)
     }
 
+    /**
+     * Set the motors to a certain power
+     * @param power The power of the motors, from -100 to 100 percent
+     */
     //% block="Backwards at $speed power"
     //% speed.min=0 speed.max=100 speed.defl=50
     //% group="Motors" weight=99
@@ -124,6 +154,11 @@ namespace ada
         pins.analogWritePin(AnalogPin.P2, s)
     }
 
+    /**
+     * Set the motors to a certain power
+     * @param left The power of the left motor, from -100 to 100 percent
+     * @param right The power of the right motor, from -100 to 100 percent
+     */
     //% block="Left motor at $left and right motor at $right"
     //% left.min=-100 left.max=100
     //% right.min=-100 right.max=100
@@ -149,6 +184,10 @@ namespace ada
 
     // --- SENSORS ---
  
+    /**
+     * Read the distance from the ultrasonic sensor
+     * @param unit The unit to return the distance in
+     */
     //% block="distance in $unit"
     //% blockId="read_distance"
     //% unit.shadow=read_distance_units

@@ -1,1 +1,22 @@
-{}
+{
+    "ada.backwards": "Go backwards for a certain duration",
+    "ada.backwards|param|duration": "The duration to run the motors, in seconds",
+    "ada.backwards|param|speed": "The speed of the motors, from 0 to 100 percent",
+    "ada.brake": "Stop the motors",
+    "ada.forward": "Go forward for a certain duration",
+    "ada.forward|param|duration": "The duration to run the motors, in seconds",
+    "ada.forward|param|speed": "The speed of the motors, from 0 to 100 percent",
+    "ada.freestyle": "Set the motors to a certain power",
+    "ada.freestyle|param|left": "The power of the left motor, from -100 to 100 percent",
+    "ada.freestyle|param|right": "The power of the right motor, from -100 to 100 percent",
+    "ada.readDistance": "Read the distance from the ultrasonic sensor",
+    "ada.readDistance|param|unit": "The unit to return the distance in",
+    "ada.setBackwards": "Set the motors to a certain power",
+    "ada.setForward": "Set the motors to a certain power",
+    "ada.turnLeft": "Turn left for a certain duration",
+    "ada.turnLeft|param|duration": "The duration to run the motors, in seconds",
+    "ada.turnLeft|param|speed": "The speed of the motors, from 0 to 100 percent",
+    "ada.turnRight": "Turn right for a certain duration",
+    "ada.turnRight|param|duration": "The duration to run the motors, in seconds",
+    "ada.turnRight|param|speed": "The speed of the motors, from 0 to 100 percent"
+  }
