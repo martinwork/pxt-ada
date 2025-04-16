@@ -23,7 +23,7 @@ namespace ada
      * @param speed The speed of the motors, from 0 to 100 percent
      * @param duration The duration to run the motors, in seconds
      */
-    //% block="Forward at $speed power for $duration seconds"
+    //% block="forward at $speed power for $duration seconds"
     //% speed.min=0 speed.max=100 speed.defl=50
     //% duration.min=0 duration.defl=1
     //% group="Motors" weight=100
@@ -45,7 +45,7 @@ namespace ada
      * @param speed The speed of the motors, from 0 to 100 percent
      * @param duration The duration to run the motors, in seconds
      */
-    //% block="Backwards at $speed power for $duration seconds"
+    //% block="backwards at $speed power for $duration seconds"
     //% speed.min=0 speed.max=100 speed.defl=50
     //% duration.min=0 duration.defl=1
     //% group="Motors" weight=99
@@ -67,7 +67,7 @@ namespace ada
      * @param speed The speed of the motors, from 0 to 100 percent
      * @param duration The duration to run the motors, in seconds
      */
-    //% block="Turn left at $speed power for $duration seconds"
+    //% block="turn left at $speed power for $duration seconds"
     //% speed.min=0 speed.max=100 speed.defl=50
     //% duration.min=0 duration.defl=1
     //% group="Motors" weight=90
@@ -89,7 +89,7 @@ namespace ada
      * @param speed The speed of the motors, from 0 to 100 percent
      * @param duration The duration to run the motors, in seconds
      */
-    //% block="Turn right at $speed power for $duration seconds"
+    //% block="turn right at $speed power for $duration seconds"
     //% speed.min=0 speed.max=100 speed.defl=50
     //% duration.min=0 duration.defl=1
     //% group="Motors" weight=89
@@ -109,7 +109,7 @@ namespace ada
     /**
      * Stop the motors
      */
-    //% block="Stop the motors" group="Motors" weight=0
+    //% block="stop the motors" group="Motors" weight=0
     export function brake() {
         pins.digitalWritePin(DigitalPin.P8, 0)
         pins.digitalWritePin(DigitalPin.P12, 1)
@@ -122,7 +122,7 @@ namespace ada
      * Set the motors to a certain power
      * @param power The power of the motors, from -100 to 100 percent
      */
-    //% block="Forward at $speed power"
+    //% block="forward at $speed power"
     //% speed.min=0 speed.max=100 speed.defl=50
     //% group="Motors" weight=100
     //% advanced=true
@@ -140,7 +140,7 @@ namespace ada
      * Set the motors to a certain power
      * @param power The power of the motors, from -100 to 100 percent
      */
-    //% block="Backwards at $speed power"
+    //% block="backwards at $speed power"
     //% speed.min=0 speed.max=100 speed.defl=50
     //% group="Motors" weight=99
     //% advanced=true
@@ -159,7 +159,7 @@ namespace ada
      * @param left The power of the left motor, from -100 to 100 percent
      * @param right The power of the right motor, from -100 to 100 percent
      */
-    //% block="Left motor at $left and right motor at $right"
+    //% block="left motor at $left and right motor at $right"
     //% left.min=-100 left.max=100
     //% right.min=-100 right.max=100
     //% group="Motors" weight=80
