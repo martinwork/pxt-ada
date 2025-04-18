@@ -41,7 +41,9 @@ basic.forever(() => {
 
 ### Motors
 
-#### `ada.forward(speed: number, duration: number)`
+```sig
+ada.forward(50, 1);
+```
 
 Drive both motors forward at a specified power for a set time.
 
@@ -55,7 +57,9 @@ Drive both motors forward at a specified power for a set time.
 
 ---
 
-#### `ada.backwards(speed: number, duration: number)`
+```sig
+ada.backwards(50, 1);
+```
 
 Drive both motors backward at a specified power for a set time.
 
@@ -69,7 +73,9 @@ Drive both motors backward at a specified power for a set time.
 
 ---
 
-#### `ada.left(speed: number, duration: number)`
+```sig
+ada.left(speed: number, duration: number);
+```
 
 Turn both motors left at a specified power for a set time.
 
@@ -82,7 +88,10 @@ Turn both motors left at a specified power for a set time.
 
 ---
 
-#### `ada.right(speed: number, duration: number)`
+```sig
+ada.right(speed: number, duration: number);
+```
+
 
 Turn both motors right at a specified power for a set time.
 
@@ -95,7 +104,9 @@ Turn both motors right at a specified power for a set time.
 
 ---
 
-#### `ada.brake()`
+```sig
+ada.brake();
+```
 
 **Stop the motors immediately.**
 
@@ -104,7 +115,9 @@ Turn both motors right at a specified power for a set time.
 
 ---
 
-#### `ada.set_forward(speed: number)`
+```sig
+ada.set_forward(50);
+```
 
 *(Advanced)* Drive both motors forward at a specified power **without timing** (runs until manually stopped).
 
@@ -114,7 +127,9 @@ Turn both motors right at a specified power for a set time.
 
 ---
 
-#### `ada.set_backwards(speed: number)`
+```sig
+ada.set_backwards(50);
+```
 
 *(Advanced)* Drive both motors backward at a specified power **without timing** (runs until manually stopped).
 
@@ -124,7 +139,9 @@ Turn both motors right at a specified power for a set time.
 
 ---
 
-#### `ada.freeroam(left: number, right: number): void`
+```sig
+ada.freeroam(50, 50);
+```
 
 *(Advanced)* Directly set the speed and direction of each motor.
 
@@ -140,7 +157,9 @@ Turn both motors right at a specified power for a set time.
 
 ### Sensors
 
-#### `ada.read_distance(unit: DistanceUnit): number`
+```sig
+ada.read_distance(DistanceUnit.CM);
+```
 
 Read the current distance using an ultrasonic sensor.
 
