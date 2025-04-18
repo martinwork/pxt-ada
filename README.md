@@ -16,14 +16,14 @@ Control the robot to move forward for 2 seconds, turn left for 1 second, and the
 
 ```blocks
 ada.forward(50, 2)
-ada.left(50, 1)
+ada.turnLeft(50, 1)
 ```
 
 Use the ultrasonic sensor to stop the robot when an object is within 20 cm.
 
 ```blocks
 basic.forever(() => {
-    if (ada.read_distance(DistanceUnit.CM) < 20) {
+    if (ada.readDistance(DistanceUnit.CM) < 20) {
         ada.brake()
     } else {
         ada.forward(50, 1)
@@ -183,6 +183,3 @@ License MIT
 ```package
 ada=github:martinwork/pxt-ada
 ```
-
-<script src="https://makecode.com/gh-pages-embed.js"></script>
-<script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
