@@ -177,17 +177,9 @@ Read the current distance using an ultrasonic sensor.
 
 ---
 
-## License
+License MIT
 
-MIT
-
-## Supported targets
-
-* for PXT/microbit
-* for PXT/calliope
-
-(The metadata above is needed for package search.)
 
 ```package
-ada=github:atelier03-ca/pxt-ada
+ada=github:martinwork/pxt-ada
 ```
