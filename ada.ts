@@ -189,8 +189,6 @@ namespace ada
      * @param unit The unit to return the distance in
      */
     //% block="distance in $unit"
-    //% blockId="read_distance"
-    //% unit.shadow=read_distance_units
     //% group="Sensors" weight=100
     export function readDistance(unit: DistanceUnit): number {
 
